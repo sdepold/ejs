@@ -123,6 +123,12 @@ After that you will gain access to the following helpers in your ejs view:
   - jsTag(src)
   - cssTag(src)
 
+And some real world examples:
+
+    <%- jsTag("/javascripts/jquery-1.5.1.min.js") %>
+    <%- cssTag("/stylesheets/style.css") %>
+    <%- linkTo('Login', '/login') %>
+
 ## License 
 
 (The MIT License)
