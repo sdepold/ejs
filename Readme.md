@@ -111,6 +111,18 @@ Currently these filters are available:
   - reverse
   - get:'prop'
 
+## Helpers
+
+EJS comes with many helpers inspired by Ruby on Rails. Use it with ExpressJS this way:
+
+    app.helpers(require("ejs").helpers)
+
+After that you will gain access to the following helpers in your ejs view:
+
+  - linkTo(text, url)
+  - jsTag(src)
+  - cssTag(src)
+
 ## License 
 
 (The MIT License)
