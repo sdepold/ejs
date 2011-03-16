@@ -122,6 +122,10 @@ After that you will gain access to the following helpers in your ejs view:
   - linkTo(text, url)
   - jsTag(src)
   - cssTag(src)
+  - label(name, text)
+  - submitTag(text)
+  - textField(name, text, options)
+  - passwordField(name, text, options)
 
 And some real world examples:
 
