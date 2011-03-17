@@ -126,6 +126,7 @@ After that you will gain access to the following helpers in your ejs view:
   - submitTag(text)
   - textField(name, text, options)
   - passwordField(name, text, options)
+  - require(moduleName|path)
 
 And some real world examples:
 
